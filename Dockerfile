@@ -20,5 +20,5 @@ COPY run /usr/local/bin/run
 RUN chmod +x /usr/local/bin/run
 RUN a2enmod rewrite
 
-EXPOSE 80
+EXPOSE 80:80
 CMD ["/usr/local/bin/run"]
